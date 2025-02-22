@@ -60,7 +60,7 @@ function Demo () {
     <div>
       <ul>
         {users.map((eachItem) => 
-        <li key = {eachItem.id}>{eachItem.name}</li>
+        <li key = {eachItem.id}>{eachItem.email}</li>
         
         )}
       </ul>
